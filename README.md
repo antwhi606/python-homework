@@ -42,7 +42,8 @@ budget_min
 #Print out results
 print('Financial Analysis')
 print('---------------------')
-print(f"Total Profit/Losses {budget_total}")
-print(f'Average Change {budget_returns}')
-print(f"Greatest Increase in Profts {budget_max}")
-print(f"Greatest Decrease in Profts {budget_min}")
+print(f"Total Profit/Losses {budget_total[0]}")
+print(f'Average Change {budget_returns[0]}')
+print(f"Greatest Increase in Profts {budget_max[0]}")
+print(f"Greatest Decrease in Profts {budget_min[0]}")
+
